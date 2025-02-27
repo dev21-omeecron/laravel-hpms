@@ -1,0 +1,89 @@
+{
+    "menu": [
+      {
+        "url": "/home",
+        "name": "Dashboard",
+        "icon": "home",
+        "slug": "",
+        "roles": ["admin", "doctor", "patient"]
+      },
+      {
+        "url": "/admin/doctor-list",
+        "name": "Doctor List",
+        "icon": "user",
+        "slug": "doctor-list",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/admin/patient-list",
+        "name": "Patient List",
+        "icon": "users",
+        "slug": "patient-list",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/admin/appointment-details",
+        "name": "Appointment Details",
+        "icon": "calendar",
+        "slug": "appointment-details",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/auth/add-doctor",
+        "name": "Add Doctor",
+        "icon": "plus-circle",
+        "slug": "add-doctor",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/doctor/appointments",
+        "name": "Appointments",
+        "icon": "calendar",
+        "slug": "appointments",
+        "roles": ["doctor"]
+      },
+      {
+        "url": "/doctor/prescription-list",
+        "name": "Prescription",
+        "icon": "file-text",
+        "slug": "prescription-list",
+        "roles": ["doctor"]
+      },
+      {
+        "url": "/patient/book-appointment",
+        "name": "Book Appointment",
+        "icon": "calendar", 
+        "slug": "book-appointment",
+        "roles": ["patient"]
+      },
+      {
+        "url": "/patient/appointment-history",
+        "name": "Appointment History",
+        "icon": "clock",
+        "slug": "appointment-history",
+        "roles": ["patient"]
+      },
+      {
+        "url": "/patient/prescription-history",
+        "name": "Prescription History",
+        "icon": "file-text",
+        "slug": "prescription-history",
+        "roles": ["patient"]
+      },
+      {
+        "url": "/change-password",
+        "name": "Change Password",
+        "icon": "lock",
+        "slug": "change-password",
+        "roles": ["admin", "doctor", "patient"]
+      },
+      {
+        "url": "/logout",
+        "name": "Logout",
+        "icon": "log-out",
+        "slug": "logout",
+        "roles": ["admin", "doctor", "patient"]
+    }
+    ]
+  }
+  

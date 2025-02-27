@@ -1,0 +1,96 @@
+{
+    "menu": [
+      {
+        "url": "/home",
+        "name": "Dashboard",
+        "icon": "home",
+        "slug": "",
+        "roles": ["admin", "doctor", "patient"]
+      },
+      {
+        "url": "/admin/doctor-list",
+        "name": "Doctor List",
+        "icon": "user",
+        "slug": "doctor-list",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/admin/patient-list",
+        "name": "Patient List",
+        "icon": "users",
+        "slug": "patient-list",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/admin/appointment-details",
+        "name": "Appointment Details",
+        "icon": "calendar",
+        "slug": "appointment-details",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/admin/add-doctor",
+        "name": "Add Doctor",
+        "icon": "plus-circle",
+        "slug": "add-doctor",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/admin/messages",
+        "name": "Messages",
+        "icon": "mail",
+        "slug": "messages",
+        "roles": ["admin"]
+      },
+      {
+        "url": "/doctor/appointments",
+        "name": "Appointments",
+        "icon": "calendar",
+        "slug": "appointments",
+        "roles": ["doctor"]
+      },
+      {
+        "url": "/doctor/prescription-list",
+        "name": "Prescription List",
+        "icon": "file-text",
+        "slug": "prescription-list",
+        "roles": ["doctor"]
+      },
+      {
+        "url": "/patient/book-appointment",
+        "name": "Book Appointment",
+        "icon": "calendar", 
+        "slug": "book-appointment",
+        "roles": ["patient"]
+      },
+      {
+        "url": "/patient/appointment-history",
+        "name": "Appointment History",
+        "icon": "clock",
+        "slug": "appointment-history",
+        "roles": ["patient"]
+      },
+      {
+        "url": "/patient/prescription",
+        "name": "Prescription",
+        "icon": "file-text",
+        "slug": "prescription",
+        "roles": ["patient"]
+      },
+      {
+        "url": "/change-password",
+        "name": "Change Password",
+        "icon": "lock",
+        "slug": "change-password",
+        "roles": ["admin", "doctor", "patient"]
+      },
+      {
+        "url": "javascript:void(0)",
+        "name": "Logout",
+        "icon": "log-out",
+        "slug": "logout",
+        "roles": ["admin", "doctor", "patient"]
+      }
+    ]
+  }
+  
